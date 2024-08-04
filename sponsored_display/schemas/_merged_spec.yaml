@@ -1,0 +1,103 @@
+---
+servers:
+- url: "http://localhost:8080"
+openapi: "3.0.2"
+paths:
+  /sd/productAds:
+    $ref: "./openapi.yaml#/paths/~1sd~1productAds"
+  /sd/brandSafety/{requestId}/results:
+    $ref: "./openapi.yaml#/paths/~1sd~1brandSafety~1{requestId}~1results"
+  /sd/budgetRules/{budgetRuleId}:
+    $ref: "./openapi.yaml#/paths/~1sd~1budgetRules~1{budgetRuleId}"
+  /sd/campaigns/{campaignId}:
+    $ref: "./openapi.yaml#/paths/~1sd~1campaigns~1{campaignId}"
+  /sd/locations/delete:
+    $ref: "./openapi.yaml#/paths/~1sd~1locations~1delete"
+  /sd/adGroups/{adGroupId}/optimizationRules:
+    $ref: "./openapi.yaml#/paths/~1sd~1adGroups~1{adGroupId}~1optimizationRules"
+  /sd/budgetRules:
+    $ref: "./openapi.yaml#/paths/~1sd~1budgetRules"
+  /sd/adGroups/extended:
+    $ref: "./openapi.yaml#/paths/~1sd~1adGroups~1extended"
+  /sd/brandSafety/deny:
+    $ref: "./openapi.yaml#/paths/~1sd~1brandSafety~1deny"
+  /sd/negativeTargets/extended/{negativeTargetId}:
+    $ref: "./openapi.yaml#/paths/~1sd~1negativeTargets~1extended~1{negativeTargetId}"
+  /sd/creatives:
+    $ref: "./openapi.yaml#/paths/~1sd~1creatives"
+  /sd/adGroups/extended/{adGroupId}:
+    $ref: "./openapi.yaml#/paths/~1sd~1adGroups~1extended~1{adGroupId}"
+  /v2/reports/{reportId}:
+    $ref: "./openapi.yaml#/paths/~1v2~1reports~1{reportId}"
+  /sd/productAds/extended:
+    $ref: "./openapi.yaml#/paths/~1sd~1productAds~1extended"
+  /sd/creatives/preview:
+    $ref: "./openapi.yaml#/paths/~1sd~1creatives~1preview"
+  /sd/negativeTargets:
+    $ref: "./openapi.yaml#/paths/~1sd~1negativeTargets"
+  /sd/productAds/{adId}:
+    $ref: "./openapi.yaml#/paths/~1sd~1productAds~1{adId}"
+  /v2/reports/{reportId}/download:
+    $ref: "./openapi.yaml#/paths/~1v2~1reports~1{reportId}~1download"
+  /sd/negativeTargets/extended:
+    $ref: "./openapi.yaml#/paths/~1sd~1negativeTargets~1extended"
+  /sd/targets/bid/recommendations:
+    $ref: "./openapi.yaml#/paths/~1sd~1targets~1bid~1recommendations"
+  /sd/forecasts:
+    $ref: "./openapi.yaml#/paths/~1sd~1forecasts"
+  /sd/locations:
+    $ref: "./openapi.yaml#/paths/~1sd~1locations"
+  /sd/{recordType}/report:
+    $ref: "./openapi.yaml#/paths/~1sd~1{recordType}~1report"
+  /sd/moderation/creatives:
+    $ref: "./openapi.yaml#/paths/~1sd~1moderation~1creatives"
+  /sd/brandSafety/status:
+    $ref: "./openapi.yaml#/paths/~1sd~1brandSafety~1status"
+  /sd/brandSafety/{requestId}/status:
+    $ref: "./openapi.yaml#/paths/~1sd~1brandSafety~1{requestId}~1status"
+  /sd/adGroups/{adGroupId}:
+    $ref: "./openapi.yaml#/paths/~1sd~1adGroups~1{adGroupId}"
+  /sd/campaigns/budgetRecommendations:
+    $ref: "./openapi.yaml#/paths/~1sd~1campaigns~1budgetRecommendations"
+  /sd/optimizationRules:
+    $ref: "./openapi.yaml#/paths/~1sd~1optimizationRules"
+  /sd/negativeTargets/{negativeTargetId}:
+    $ref: "./openapi.yaml#/paths/~1sd~1negativeTargets~1{negativeTargetId}"
+  /sd/targets/extended/{targetId}:
+    $ref: "./openapi.yaml#/paths/~1sd~1targets~1extended~1{targetId}"
+  /sd/adGroups/{adGroupId}/optimizationRules/disassociate:
+    $ref: "./openapi.yaml#/paths/~1sd~1adGroups~1{adGroupId}~1optimizationRules~1disassociate"
+  /sd/targets:
+    $ref: "./openapi.yaml#/paths/~1sd~1targets"
+  /sd/campaigns:
+    $ref: "./openapi.yaml#/paths/~1sd~1campaigns"
+  /sd/snapshots/{snapshotId}/download:
+    $ref: "./openapi.yaml#/paths/~1sd~1snapshots~1{snapshotId}~1download"
+  /sd/productAds/extended/{adId}:
+    $ref: "./openapi.yaml#/paths/~1sd~1productAds~1extended~1{adId}"
+  /sd/targets/recommendations:
+    $ref: "./openapi.yaml#/paths/~1sd~1targets~1recommendations"
+  /sd/targets/extended:
+    $ref: "./openapi.yaml#/paths/~1sd~1targets~1extended"
+  /sd/campaigns/extended/{campaignId}:
+    $ref: "./openapi.yaml#/paths/~1sd~1campaigns~1extended~1{campaignId}"
+  /sd/recommendations/creative/headline:
+    $ref: "./openapi.yaml#/paths/~1sd~1recommendations~1creative~1headline"
+  /sd/adGroups:
+    $ref: "./openapi.yaml#/paths/~1sd~1adGroups"
+  /sd/campaigns/extended:
+    $ref: "./openapi.yaml#/paths/~1sd~1campaigns~1extended"
+  /sd/{recordType}/snapshot:
+    $ref: "./openapi.yaml#/paths/~1sd~1{recordType}~1snapshot"
+  /sd/snapshots/{snapshotId}:
+    $ref: "./openapi.yaml#/paths/~1sd~1snapshots~1{snapshotId}"
+  /sd/targets/{targetId}:
+    $ref: "./openapi.yaml#/paths/~1sd~1targets~1{targetId}"
+  /sd/optimizationRules/{optimizationRuleId}:
+    $ref: "./openapi.yaml#/paths/~1sd~1optimizationRules~1{optimizationRuleId}"
+  /sd/campaigns/budget/usage:
+    $ref: "./openapi.yaml#/paths/~1sd~1campaigns~1budget~1usage"
+info:
+  title: "merged spec"
+  description: "merged spec"
+  version: "1.0.0"
